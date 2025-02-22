@@ -4,6 +4,9 @@ function App() {
   return (
     <div style={containerStyles}>
       <h2>Profissionais de saúde</h2>
+      <div style={{margin: 8, border: '1px solid #DDD', borderRadius: 8, padding: 8,
+        display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
+      </div>
     </div>
   )
 }
